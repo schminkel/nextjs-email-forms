@@ -20,7 +20,7 @@ export function SESForm() {
       <form className="w-[300px] sm:w-[560px]" action={ formAction }>
 
         <div className="text-center mt-32">
-          <h2 className="text-xl font-medium tracking-tight text-gray-900 sm:text-3xl">
+          <h2 className="text-xl font-medium tracking-tight text-gray-900 sm:text-3xl dark:text-white">
             AWS SES
           </h2>
           <p className="mt-4 text-base leading-8 text-gray-500">
@@ -117,5 +117,5 @@ export function SESForm() {
 
       </form>
   )
-};
+}
 
